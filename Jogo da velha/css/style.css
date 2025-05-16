@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+body {
+   background-color: aquamarine;
+   font-family: Libre Baskerville;
+   display: flex;
+   justify-content: center;
+}
+h1 {
+   display: flex;
+   justify-content: center;
+}
+.conteiner {
+   background-color: #fff;
+   display: flex;
+   width: 334px;
+   height: 334px;
+   flex-wrap: wrap;
+   border-radius: 20px;
+   margin-right: 50.6px;
+   margin-left: 50.6px;
+   padding: 2px;
+}
+.quadrado {
+   background-color: bisque;
+   height: 100px;
+   width: 100px;
+   margin: 5px;
+   cursor: pointer;
+   border-radius: 20px;
+   text-align: center;
+   font-size: 87px;
+}
+#situacao {
+   display: flex;
+   justify-content: center;
+   height: 50px;
+   font-size: 30px;
+}
+#limpar {
+   background-color: white;
+   border-radius: 5px;
+   height: 40px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 30px;
+   margin-left: 160px;
+   margin-right: 160px;
+   font-size: 20px;
+   cursor: pointer;
+}
+.vencedor {
+   color: greenyellow;
+}
